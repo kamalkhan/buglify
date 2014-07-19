@@ -1,0 +1,31 @@
+{
+    "name": "buglify",
+    "version": "0.0.1",
+    "description": "Batch minify (uglify) javascript (with sourcemaps) including a file change listener/watcher.",
+    "author": "Kamal Khan <shout@bhittani.com> (http://bhittani.com/)",
+    "homepage": "https://github.com/kamalkhan/buglify",
+    "license": "MIT License",
+    "main": "buglify.js",
+    "keywords": [
+        "batch",
+        "uglify",
+        "minify",
+        "javascript",
+        "sourcemaps",
+        "watcher",
+        "listener"
+    ],
+    "dependencies": {
+        "colors": "^0.6.2",
+        "commander": "^2.3.0",
+        "uglify-js": "^2.4.15",
+        "underscore": "^1.6.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/kamalkhan/buglify.git"
+    },
+    "bugs": {
+        "url": "https://github.com/kamalkhan/buglify/issues"
+    }
+}
