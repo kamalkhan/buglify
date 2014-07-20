@@ -63,7 +63,7 @@ buglify -w
   
 #### What?
 
-  `"Frontend Scripts"` is used as a slug for the batch process. You will see how we can add more [seperate batch processes](https://github.com/kamalkhan/buglify/blob/master/README.md#multiple-seperate-source-files).
+  `"Frontend Scripts"` is used as a slug for the batch process. You will see how we can add more [separate batch processes](https://github.com/kamalkhan/buglify/blob/master/README.md#separate-batch-processes).
   
   `"root"` is used as a base directory. Basically it gets prepended to the `"src"` files.
     
@@ -148,9 +148,9 @@ Usage: buglify [options]
   `"verbose": false`
   
 
-### Seperate batch processes
+### Separate batch processes
   
-  What if we had seperate source files in our project that needed to be minified seperately? Well, just pass another one:
+  What if we had seperate source files in our project that needed to be minified separately? Well, just pass another one:
   
   ```
 project
@@ -178,7 +178,7 @@ project
   └ ...
   ```
   
-  If we take a look at our project directory structure above, we observe two seperate locations for our javascript source files, each serving its own purpose (one for the frontend of our website and one for the admin).
+  If we take a look at our project directory structure above, we observe two separate locations for our javascript source files, each serving its own purpose (one for the frontend of our website and one for the admin).
   
   A sample `buglify.json` file for the above structure:
   
