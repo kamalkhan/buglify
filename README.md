@@ -5,6 +5,8 @@ Batch minify (uglify) javascript (with sourcemaps) including a file change liste
 
 ## Installation
 
+Buglify is a [http://nodejs.org/download/](nodejs) project, so make sure you have that installed. Use npm in your terminal and install (globally):
+
   ```
 npm install -g buglify
   ```
