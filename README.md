@@ -2,10 +2,12 @@ Buglify
 ======
 
 Batch minify (uglify) javascript (with sourcemaps) including a file change listener/watcher.
+Buglify automates the process of minimizing an array of js files into a single minified version along with a source map ready to be deployed.
+The special watcher utility allows for updating the minified and source map files on the go while you concentrate on the scripting.
 
 ## Installation
 
-Buglify is a [nodejs](http://nodejs.org/download/) project, so make sure you have that installed. Use npm in your terminal and install (globally):
+Before installing buglify, we need [nodejs](http://nodejs.org/download/), so make sure you have that installed. After that, use npm in your terminal and install (globally), like so:
 
   ```
 npm install -g buglify
@@ -208,3 +210,7 @@ project
 * 0.1.1 Fix and allow source root as option
 * 0.1.0 Initial tag
 * 0.0.1 Initial release
+
+## License
+
+This project is licensed under MIT License
