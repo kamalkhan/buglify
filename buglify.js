@@ -1,3 +1,10 @@
+/*
+ * @package  buglify.js
+ * @link     http://bhittani.com/nodejs/buglify
+ * @author   M. Kamal Khan
+ * @license  MIT license
+ */
+
 require('colors');
 var fs      = require('fs');
 var _       = require('underscore');
@@ -34,5 +41,5 @@ _.each(buglifies, function(buglify, title){
     if(options.watch)
         watch(function(){
             minify(buglify, options);
-        }, buglify.root, buglify.src, title, args.verbose);
+        }, buglify.root, buglify.src, title, options.verbose);
 });
