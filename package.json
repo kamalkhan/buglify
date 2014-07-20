@@ -1,6 +1,6 @@
 {
     "name": "buglify",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "Batch minify (uglify) javascript (with sourcemaps) including a file change listener/watcher.",
     "author": "Kamal Khan <shout@bhittani.com> (http://bhittani.com/)",
     "homepage": "https://github.com/kamalkhan/buglify",
