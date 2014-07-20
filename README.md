@@ -191,14 +191,14 @@ project
     "frontend/js": {
         "root": "frontend/js/src",
         "src": ["a.js","b.js", "dir"],
-        "min_root: "frontend/js",
+        "min_root": "frontend/js",
         "min": "frontend.min.js",
         "src_root": "http://web.dev/project"
     },
     "admin/js": {
         "root": "admin/js/src",
         "src": ["dir","c.js"],
-        "min_root: "admin/js",
+        "min_root": "admin/js",
         "min": "admin.min.js",
         "src_root": "http://web.dev/project"
     }
@@ -210,6 +210,15 @@ project
 * 0.1.1 Fix and allow source root as option
 * 0.1.0 Initial tag
 * 0.0.1 Initial release
+
+## Credits
+
+Thanks to the people behind these modules which I have used in the project:
+
+[UglifyJs](https://www.npmjs.org/package/uglify-js)
+[Underscore](https://www.npmjs.org/package/underscore)
+[Colors](https://www.npmjs.org/package/colors)
+[Commander](https://www.npmjs.org/package/commander)
 
 ## License
 
